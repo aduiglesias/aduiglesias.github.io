@@ -58,7 +58,7 @@ function screenReady(){
         document.getElementById("contenedor").style.visibility="visible";
         document.getElementById("caja").style.width=pxW;
         document.getElementById("caja").style.height=pxH;
-        
+        document.getElementById("pShow").innerHTML = pulgadaSimulacion+"\'\'";
     }else{
         
         console.log("ERROR!");
@@ -77,6 +77,9 @@ if(eval.match(/^(?!0\d)\d*(\.\d+)?$/) && eval!=""){
 document.getElementById("menu").style.visibility="visible";
 document.getElementById("fullScreen").style.visibility="hidden";
 document.getElementById("cuerpo").style.background = "black";
+setTimeout(()=>{
+document.getElementById("imagenFondo").style.visibility="visible";    
+},1000);
   }
  }else{
      alert("Introduce un valor numerico valido (14.5)(15)...");
