@@ -11,11 +11,18 @@
 
 #imagenFondo{
     position: absolute;
-    height: auto;
     width: 100%;
+    height: auto;
     filter: grayscale(1);
     visibility: hidden;
 }
+
+@media screen and (max-width:600px){
+ #imagenFondo{
+    width: auto;
+    height: 100%;
+  }
+}  
 
 #contenedor{
     position: absolute;
