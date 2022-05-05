@@ -31,6 +31,7 @@ function screenReady(){
     var simH;
     var pxW;
     var pxH;
+    var pp = 2.54;
     
     if(pulgadaSimulacion.match(/^(?!0\d)\d*(\.\d+)?$/) && pulgadaSimulacion!=""){
         
@@ -54,7 +55,9 @@ function screenReady(){
         console.log("Alto en pulgadas: "+simH)
         console.log("Ancho por alto en px: "+pxW+"*"+pxH);
         console.log("///////////////////////////////");
-              
+        
+        document.getElementById("hShow").innerHTML = (simH * pp).toFixed(2)+"cm";
+        document.getElementById("wShow").innerHTML = (simW * pp).toFixed(2)+"cm";
         document.getElementById("slide").style.height="0px";
         document.getElementById("pulgadaSimulacion").value="";
         document.getElementById("contenedor").style.visibility="visible";
