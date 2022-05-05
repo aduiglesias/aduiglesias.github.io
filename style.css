@@ -3,8 +3,8 @@
 #cuerpo {
     background-color : #ededed; 
     font-family : "Calibri", sans-serif;
-    overflow-y: hidden; 
-    overflow-x: hidden;
+    overflow-y: visible; 
+    overflow-x: visible;
     margin: 0px;
     padding: 0px;
 }

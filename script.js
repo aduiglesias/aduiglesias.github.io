@@ -79,6 +79,8 @@ if(eval.match(/^(?!0\d)\d*(\.\d+)?$/) && eval!=""){
 document.getElementById("menu").style.visibility="visible";
 document.getElementById("fullScreen").style.visibility="hidden";
 document.getElementById("cuerpo").style.background = "black";
+document.getElementById("cuerpo").style.overflowX = "hidden";
+document.getElementById("cuerpo").style.overflowY = "hidden";
 setTimeout(()=>{
 document.getElementById("imagenFondo").style.visibility="visible";    
 },200);
