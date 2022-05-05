@@ -11,6 +11,7 @@
 
 #imagenFondo{
     position: absolute;
+    height: auto;
     width: 100%;
     filter: grayscale(1);
     visibility: hidden;
@@ -39,7 +40,7 @@
 #foo span{
     text-align: center;
     background: white;
-    font-size: 35px;
+    font-size: 3vw;
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 0px 0px 0px 7px;
