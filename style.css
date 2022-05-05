@@ -3,8 +3,8 @@
 #cuerpo {
     background-color : #ededed; 
     font-family : "Calibri", sans-serif;
-    overflow-y: visible; 
-    overflow-x: visible;
+    overflow-y: hidden; 
+    overflow-x: hidden;
     margin: 0px;
     padding: 0px;
 }
@@ -17,12 +17,12 @@
     visibility: hidden;
 }
 
-@media screen and (max-width:900px){
+@media screen and (max-width:950px){
  #imagenFondo{
     width: auto;
     height: 100%;
   }
-}  
+} 
 
 #contenedor{
     position: absolute;
@@ -47,7 +47,7 @@
 #foo span{
     text-align: center;
     background: white;
-    font-size: 3vw;
+    font-size: 2.7vw;
     padding-left: 6px;
     padding-right: 6px;
     border-radius: 0px 0px 0px 7px;

@@ -32,7 +32,7 @@ function screenReady(){
     var pxW;
     var pxH;
     
-    if(pulgadaInicial>pulgadaSimulacion && pulgadaSimulacion.match(/^(?!0\d)\d*(\.\d+)?$/) && pulgadaSimulacion!=""){
+    if(pulgadaSimulacion.match(/^(?!0\d)\d*(\.\d+)?$/) && pulgadaSimulacion!=""){
         
         console.log("///////////////////////////////");
         console.log("Valores del dispositivo actual:");
@@ -79,8 +79,6 @@ if(eval.match(/^(?!0\d)\d*(\.\d+)?$/) && eval!=""){
 document.getElementById("menu").style.visibility="visible";
 document.getElementById("fullScreen").style.visibility="hidden";
 document.getElementById("cuerpo").style.background = "black";
-document.getElementById("cuerpo").style.overflowX = "hidden";
-document.getElementById("cuerpo").style.overflowY = "hidden";
 setTimeout(()=>{
 document.getElementById("imagenFondo").style.visibility="visible";    
 },200);
