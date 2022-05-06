@@ -1,5 +1,3 @@
-document.body.style.zoom = "100%";
-
 function openMenu(){
  document.getElementById("slide").style.height="105px";
 }
@@ -82,9 +80,8 @@ if(eval.match(/^(?!0\d)\d*(\.\d+)?$/) && eval!=""){
 document.getElementById("menu").style.visibility="visible";
 document.getElementById("fullScreen").style.visibility="hidden";
 document.getElementById("cuerpo").style.background = "black";
-setTimeout(()=>{
 document.getElementById("imagenFondo").style.visibility="visible";    
-},200);
+
   }
  }else{
      alert("Introduce un valor numerico valido (14.5)(15)...");

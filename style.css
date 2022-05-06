@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 
-#cuerpo {
+body {
     background-color : #ededed; 
     font-family : "Calibri", sans-serif;
     overflow-y: hidden; 
@@ -60,9 +60,11 @@
     bottom:0%;
     left:50%;
     background: white;
-    font-size: 1.3vw;
-    padding-left: 6px;
-    padding-right: 6px;
+    font-size: 2.0vw;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
     border-radius: 7px 7px 0px 0px;
 }
 #hShow{
@@ -70,9 +72,11 @@
     top:50%;
     left:0%;
     background: white;
-    font-size: 1.3vw;
-    padding-left: 6px;
-    padding-right: 6px;
+    font-size: 2.0vw;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
     border-radius: 0px 7px 7px 0px;
 }
 
